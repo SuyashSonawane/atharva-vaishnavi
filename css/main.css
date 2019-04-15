@@ -7,7 +7,7 @@
 }
 .landing{
     height: 100vh;
-    background: url('images/home-bg.png');
+    background: url('../images/home-bg.png');
     background-attachment: fixed;
     background-size: cover;
  
@@ -96,7 +96,7 @@
     background: #fd9250;
 }
 .product-container-main .image{
-    background: url('images/mobile.jpg');
+    background: url('../images/mobile.jpg');
     background-size: cover;
     -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
     filter: grayscale(100%);
@@ -112,12 +112,12 @@
     background: #494747;
 }
 .p2 .image{
-    background: url('images/laptop.jpg');
+    background: url('../images/laptop.jpg');
     background-size: cover;
     transition: all 0.2s ease
 }
 .p3 .image{
-    background: url('images/camera.jpg');
+    background: url('../images/camera.jpg');
     background-size: contain;
     transition: all 0.2s ease
 }
