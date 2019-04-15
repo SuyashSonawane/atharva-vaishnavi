@@ -96,7 +96,7 @@
     background: #fd9250;
 }
 .product-container-main .image{
-    background: url('../images/mobile.jpg');
+    background: url('https://images.pexels.com/photos/607812/pexels-photo-607812.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
     background-size: cover;
     -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
     filter: grayscale(100%);
@@ -112,12 +112,12 @@
     background: #494747;
 }
 .p2 .image{
-    background: url('../images/laptop.jpg');
+    background: url('https://images.pexels.com/photos/433604/pexels-photo-433604.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
     background-size: cover;
     transition: all 0.2s ease
 }
 .p3 .image{
-    background: url('../images/camera.jpg');
+    background: url('https://images.pexels.com/photos/225157/pexels-photo-225157.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
     background-size: contain;
     transition: all 0.2s ease
 }
