@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster|Work+Sans');*{
+    margin: 0;
+    padding: 0;
+}
+.page{
+    height: 100vh;
+}
+.landing{
+    height: 100vh;
+    background: url('../images/home-bg.png');
+    background-attachment: fixed;
+    background-size: cover;
+ 
+}
+.heading-cont{
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    padding-top: 35vh;
+    height: 30vh;
+  
+    width: 100%
+}
+.spacer{
+    height: 30 vh
+}
+.heading .title{
+    font-family: 'Lobster', cursive;
+    font-size: 4.2em;
+    text-align: center;
+    color: #fd9250;
+    font-weight: 300;
+}
+.heading .small{
+    font-family: 'Work Sans', sans-serif;
+    font-size: 1.5em;
+    text-align: center;
+    color: white;
+    font-weight: 300;
+}
+.who-we-are{
+    height: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.who-we-are-image{
+    width: 100%;
+}
+.who-we-are-main{
+    font-family: 'Lobster', cursive;
+    font-size: 2.1em;
+    background: #fd9250;
+    text-align: center;
+    color: #494747;
+    padding-top:40% 
+}
+.who-we-are-main .small{
+    font-family: 'Work Sans', sans-serif;
+    font-size: 0.5em;
+    text-align: center;
+    width: 50%;
+    color: white;
+    font-weight: 300;
+  margin: 0% 25%;
+}
+.products{
+    display: grid;
+    grid-template-rows:0.8fr 2.5fr; 
+}
+.products .title{
+    padding-top: 3vh;
+    font-family: 'Lobster', cursive;
+    font-size: 4.2em;
+    text-align: center;
+    color: #fd9250;
+    font-weight: 300;
+}
+.products-info{
+    display: flex;
+    justify-content: center
+}
+.product-container-main{
+    display: grid;
+    grid-template-rows: 1.5fr 1.2fr;
+    width: 300px;
+    height: 400px;
+    background: gray;
+    margin: 2vw 5vh;
+    border-radius: 20em;
+    font-family: 'Work Sans', sans-serif;
+    transition: all 0.2s ease
+}
+.product-container-main:hover{
+    transform: translateY(-10px);
+}
+.product-container-main .info{
+    background: #fd9250;
+}
+.product-container-main .image{
+    background: url('/images/mobile.jpg');
+    background-size: cover;
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+ 
+    transition: all 0.2s ease
+}
+.product-container-main:hover .image{
+
+    -webkit-filter: grayscale(00%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(00%);
+}
+.info-dark{
+    background: #494747;
+}
+.p2 .image{
+    background: url('/images/laptop.jpg');
+    background-size: cover;
+    transition: all 0.2s ease
+}
+.p3 .image{
+    background: url('/images/camera.jpg');
+    background-size: contain;
+    transition: all 0.2s ease
+}
+.info .main-text{
+    margin-top: 10%;
+    margin-bottom: 8%;
+    font-size: 1.1em;
+    text-align: center;
+    color: #494747;
+    font-weight: 300;
+
+}
+.info .small-text{
+    padding: 0vw 4vw;
+    text-align: center;
+    font-size: 0.9em;
+    color: white;
+ 
+}
+.info-dark .main-text{
+    margin-top: 10%;
+    margin-bottom: 8%;
+    font-size: 1.1em;
+    text-align: center;
+    color: #fd9250;
+    font-weight: 300;
+}
+.info-dark .small-text{
+    padding: 0vw 4vw;
+    text-align: center;
+    font-size: 0.9em;
+    color: white;
+ 
+}
+.connect-with-us{
+    background: #fd9250;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+}
+.connect {
+    padding-top: 15vh;
+    font-family: 'Lobster', cursive;
+    font-size: 3.9em;
+    text-align: center;
+    color: #494747;
+    font-weight: 300;
+}
+.connect .email{
+    
+    padding-top:10vh; 
+    font-size: 0.5em
+}
+.connect .phone{
+    
+    padding-top:2vh; 
+    font-size: 0.5em
+}
+A{
+    color: #494747;
+}
